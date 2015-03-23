@@ -31,3 +31,17 @@ describe('coderbyte_LongestWord', function() {
   expect(coderbyte_LongestWord("Where is it?")).to.equal("Where");
   });
 });
+
+
+describe('coderbyte_LetterChanges', function() {
+  beforeEach(function() {
+  });
+
+  it('should replace word with next alphabet, and capitalize vowels', function() {
+  expect(coderbyte_LetterChanges("hello*3")).to.equal("Ifmmp*3");
+  expect(coderbyte_LetterChanges("fun times!")).to.equal("gvO Ujnft!");
+  });
+});
+
+  
+  
