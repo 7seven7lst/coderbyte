@@ -43,5 +43,14 @@ describe('coderbyte_LetterChanges', function() {
   });
 });
 
+
+describe('coderbyte_LetterCapitalize', function() {
+  beforeEach(function() {
+  });
+
+  it('should capitalize first letter of each word', function() {
+  expect(LetterCapitalize("Argument goes here")).to.equal("Argument Goes Here");
+  });
+});
   
   
